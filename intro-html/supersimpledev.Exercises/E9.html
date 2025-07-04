@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <style>
+
+    body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    background-color: white;   /* optional */
+}
+
+    .twitter-container {
+
+    max-width: 600px;
+    margin: 10px auto;       /* centers horizontally and adds top space */
+    padding: 10px;
+    
+  
+    }
+    .tweet-wrapper {
+        position: relative;
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;  
+        border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;  
+        margin-top: 0;
+    
+    }
+
+
+    .twitter-picture {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .twitter-box {
+      border: none;
+      outline: none;
+      flex: 1;
+      font-size: 14px;
+    }
+
+    .tweet-button {
+      background-color: #1DA1F2;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .headline-pic {
+        width: 380px;
+        display: block;
+        margin-bottom: 5px;
+        padding: 0 10px;
+    }
+
+    .headline-pic-row {
+
+        margin-bottom: 0px;
+        display: block;
+    }
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <div class="headline-pic-row">
+    <img class="headline-pic" src="logo-Twitter.png">
+    <div class="twitter-container">
+    <div class="tweet-wrapper">
+        <img class="twitter-picture" src="hd-twitter-badge-round-icon-png-701751695054060zg0xroxbgg.png">
+        <input class="twitter-box" type="text" placeholder="What's happening?">
+        <button class="tweet-button">Tweet</button>
+
+    </div>
+   </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+

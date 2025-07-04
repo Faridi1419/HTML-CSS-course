@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lesson11b-gird</title>
+
+        <style>
+
+        .thumbnail-pic {
+            width: 150px;
+            height: 150px;
+            object-position: center;
+            
+        }
+
+        .profile-pic{
+            width: 40px;
+            border-radius: 30px;
+            padding-right: 0;
+
+        }
+             
+        .profile-info-grid {
+            display: grid;
+            grid-template-columns: 50px 200px;
+        }
+
+
+        .add-button {
+            display: block;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 10px;
+        }
+
+        .oliver-container {
+            width: 150px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            padding: 15px;
+            max-width: 300px;
+            background-color: white;
+            font-family: sans-serif;
+            
+
+        }
+
+        .whole-container {
+        display: flex;
+        grid-template-columns: 150px 150px 150px;
+        column-gap: 5px;
+    }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="whole-container">
+
+            <div class="oliver-container">
+            <div>
+                <img class="thumbnail-pic" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <p>Oliver</p>
+            </div>
+            
+            <div class="profile-info-grid">
+            <div>
+                <img class="profile-pic" src="channel-pictures/channel-1.jpeg">
+            </div>    
+            <div>
+                <p> 2 mutual friends</p>
+            </div>
+            
+
+            </div>
+            
+            <button class="add-button"> Add Friend</button>
+        </div>
+    
+         
+
+             <div class="oliver-container">
+            <div>
+                <img class="thumbnail-pic" src="thumbnails/thumbnail-2.webp">
+            </div>
+            <div>
+                <p>Oliver</p>
+            </div>
+            
+            <div class="profile-info-grid">
+            <div>
+                <img class="profile-pic" src="channel-pictures/channel-2.jpeg">
+            </div>    
+            <div>
+                <p> 2 mutual friends</p>
+            </div>
+            
+
+            </div>
+            
+            <button class="add-button"> Add Friend</button>
+        </div>
+
+
+        <div class="oliver-container">
+            <div>
+                <img class="thumbnail-pic" src="thumbnails/thumbnail-3.webp">
+            </div>
+            <div>
+                <p>Oliver</p>
+            </div>
+            
+            <div class="profile-info-grid">
+            <div>
+                <img class="profile-pic" src="channel-pictures/channel-3.jpeg">
+            </div>    
+            <div>
+                <p> 2 mutual friends</p>
+            </div>
+            
+
+            </div>
+            
+            <button class="add-button"> Add Friend</button>
+        </div>
+    
+         </div>
+
+
+    </body>
+</html>
